@@ -1,0 +1,31 @@
+# Node / UniApp dependencies and build output
+node_modules/
+dist/
+unpackage/
+
+# Runtime data and local secrets
+server/data/
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs, archives, temporary exports, and local backups
+*.log
+*.tgz
+*.tmp
+*.bak
+/tmp-*
+/bak-*/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Local verification output and remote runtime cache
+verification/
+tools/remote-runtime/
+*.err
+wechat-upload*.json
